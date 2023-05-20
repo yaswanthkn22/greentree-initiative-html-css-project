@@ -613,7 +613,7 @@ html,body{
         grid-column: 2/3;
     }
 }
-
+/*Desktop*/
 @media screen and (min-width: 1440px) {
 
     #header {
@@ -629,6 +629,9 @@ html,body{
     }
     #header button {
         grid-column: 3/4;
+    }
+    #header button a {
+        font-size: 1rem;
     }
 
     #welcome {
@@ -705,4 +708,74 @@ html,body{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 4rem 0;
     }
+    #sliders {
+        align-items: start;
+        overflow-y: hidden;
+    }
+    #slide-intro {
+        width: 80%;
+        text-align: start;
+        position: relative;
+        left: 7rem;
+    }
+    #slide-intro h4 {
+        text-align: start;
+        width: 60%;
+        font-size: 3rem;
+    }
+    #sliders #cards {
+        width: 100%;
+        position: relative;
+        left: 7rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        overflow-y: hidden;
+        
+    }
+
+    #sliders #cards #card {
+        width: 480px;
+        height: 680px;
+    }
+    #card img {
+        overflow-y: hidden;
+    }
+
+    #subscribe {
+        display: flex;
+        width: 100%;
+        padding: 5rem 0;
+        
+    }
+    #subscribe h4 {
+        padding-left: 0;
+        width: 650px;
+        position: relative;
+        left: 7rem;
+    }
+
+    #subscribe #input{
+        width: 600px;
+        position: relative;
+        left: 10%;
+    }
+
+
+    #final-section {
+        width: 80%;
+        position: relative;
+        left: 7rem;
+        font-size: 1rem;
+        display: grid;
+        grid-template-columns: repeat(5,20%);
+    }
+    #hash {
+        justify-self: start;
+        width: 7rem;
+        grid-column: 5/6;
+    }
+    #final-section :nth-child(4){
+        grid-column: 4/5;
+    }
+
+
 }
