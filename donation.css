@@ -173,7 +173,7 @@ button{
 
 
 /*Mobile*/
-@media screen and (min-width: 374px) {
+@media screen and (min-width: 300px) {
     html {
         font-size: 14px;
     }
