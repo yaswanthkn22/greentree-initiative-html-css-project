@@ -31,6 +31,9 @@ img[alt="women"]{
     color: #354463;
     line-height: 1.5rem;
 }
+#header ul li a {
+    text-decoration: none;
+}
 
 #header button {
     border: none;
