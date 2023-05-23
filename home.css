@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
 }
 
 html,body{
@@ -848,21 +849,18 @@ a[id="read-more"] {
         font-size: 3rem;
         width: 100%;
     }
-    #stories {
-        height: 30rem;
-    }
     #stories #img-h3 {
-        width: 22rem;
-        height: 22rem;
+        width: 50%;
+        height: 90%;
         position: relative;
         left: 58%;
         top: 4rem;
     }
 
     #stories #story-card {
-        width: 21rem;
+        width: 40%;
         position: relative;
-        left: 30%;
+        left: 20%;
         bottom: 11rem;
     }
     #stories #story-card p {
@@ -873,7 +871,7 @@ a[id="read-more"] {
     }
     #stories a {
         position: relative;
-        left: 30%;
+        left: 20%;
         bottom: 8rem;
     }
     #event-news{
