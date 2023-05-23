@@ -23,6 +23,10 @@ html,body{
     color: #354463;
     line-height: 1.5rem;
 }
+#header ul li a {
+    text-decoration: none;
+    color: #354463;
+}
 
 #header button {
     border: none;
@@ -79,6 +83,10 @@ html,body{
 #subscribe {
     background-color: #C1F7D5;
     color: #354463;
+}
+
+#hash p {
+    font-family: "flood-std-regular";
 }
 
 /*Mobile*/
@@ -381,29 +389,28 @@ html,body{
     }
 
     /*Subscribe*/
-
-    #subscribe {
-        display: grid;
+    #subscribe{
         width: 100%;
-        
+        display: grid;
+        padding: 1.5rem 1.2rem;
     }
     #subscribe h4 {
         font-family: Helvetica, sans-serif;
         font-weight: bold;
         color: #354463;
         font-size: 1.3rem;
-        padding: 1.5rem 1.2rem;
+        padding: 1.5rem 0;
     }
     #subscribe #input {
         display: flex;
         flex-direction: row;
         justify-content: start;
-        padding: 1.5rem 1.2rem;
+        padding: 1.5rem 0;
     }
     #subscribe #input input {
         font-family: Helvetica, sans-serif;
         border: none;
-        width: 100%;
+        width: 63%;
         border-radius: 2rem;
         padding: 0.6rem 0.8rem; 
         color: #354463;
@@ -416,7 +423,7 @@ html,body{
         background-color: #354463;
         color: #C1F7D5;
         border-radius: 1rem;
-        width: 100%;
+        width: 37%;
         max-width: 250px;
     }
 /*Last section*/
@@ -579,22 +586,11 @@ html,body{
         column-gap: 1rem;
         overflow: hidden;
     }
-
-    #subscribe h4{
-        width: 65%;
+    #subscribe input {
+        font-size: 1rem;
     }
-    #input {
-        justify-content: space-between;
-        height: 100%;
-    }
-    #input input {
-        max-width: 400px;
-        padding: 3rem 0;
-    }
-    #input button {
-        margin-left: 2rem;
-        padding: 1rem;
-        border-radius: 2rem;
+    #subscribe button {
+        font-size: 1rem;
     }
 
     /*Final section*/
@@ -760,6 +756,22 @@ html,body{
         position: relative;
         left: 10%;
     }
+    #subscribe {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+        padding: 2rem 0;
+    }
+
+    #subscribe h4 {
+        font-size: 1rem;
+    }
+    #subscribe #input input,button{
+        font-size: 0.8rem;
+    }
+    #subscribe #input button{
+        font-size: 0.8rem;
+    }
 
 
     #final-section {
@@ -778,6 +790,4 @@ html,body{
     #final-section :nth-child(4){
         grid-column: 4/5;
     }
-
-
 }

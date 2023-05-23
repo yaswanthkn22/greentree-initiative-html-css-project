@@ -34,6 +34,7 @@ img[alt="women"]{
 }
 #header ul li a {
     text-decoration: none;
+    color: #354463;
 }
 
 #header button {
@@ -535,6 +536,7 @@ a[id="read-more"] {
     #hash p {
         font-size: 2rem;
         padding: 1rem 0;
+        font-family: "flood-std-regular";
     }
 }
 
@@ -822,13 +824,19 @@ a[id="read-more"] {
     #what-we-do #we-do-content{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 2rem;
+        column-gap: 4rem;
     }
     #what-we-do #we-do-content .we-do-card {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 1rem; 
+    }
+    #what-we-do #we-do-content .we-do-card img{
+        width: 100%;
+        height: 60%;
+        position: relative;
+        left: 2rem;
     }
     #what-we-do #we-do-content .we-do-card p{
         padding: 2rem 2rem;
@@ -885,8 +893,11 @@ a[id="read-more"] {
     font-size: 3rem;
 }
 #event-news #desktop-events .desktop-event img {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
+}
+#event-news #desktop-events #desktop-event2 .desktop-inside{
+    row-gap: 0rem;
 }
 #event-news #desktop-events {
     row-gap: 3.8rem;
